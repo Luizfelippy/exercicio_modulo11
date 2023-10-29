@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: royalblue;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.titles {
+    font-style: italic;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    color: royalblue;
+    border-bottom: 1px solid royalblue;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.lista-calcados li {
+    list-style: none;
+    max-width: 21%;
+}
+
+.lista-calcados li img {
+    max-width: 100%;   
+}
+
+.lista-calcados h3 {
+    margin: 16px 0;
+}
+
+.lista-calcados li p {
+    font-size: 14px;
+}
+
+.lista-calcados li button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+    .container .container-flex {
+        display: block;
+    }
+
+    section .container {
+        display: block;
+    }
+
+    #sobre-a-loja img {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .lista-calcados li {
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+}
+@media screen and (min-width: 641px) and (max-width:1023px) {
+    section .container-block {
+        display: block;
+    }
+
+    #sobre-a-loja img {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+
+
+
+
