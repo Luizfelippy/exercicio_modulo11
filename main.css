@@ -64,7 +64,7 @@ section p {
 
 .lista-calcados li {
     list-style: none;
-    max-width: 21%;
+    max-width: 245px;
 }
 
 .lista-calcados li img {
@@ -120,6 +120,16 @@ section p {
     #sobre-a-loja img {
         max-width: 100%;
         margin-bottom: 16px;
+    }
+
+    .lista-calcados {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+    }
+
+    .lista-calcados li {
+    max-width: 100%;
+    margin-bottom: 32px;
     }
 }
 
